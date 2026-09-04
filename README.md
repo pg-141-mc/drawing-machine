@@ -67,6 +67,8 @@ penup()
 pendown()
 ```
 
+(The REAL key will be in the pop-up window that appears when you run it)
+
 ### Example: Draw a Square
 
 ```python
@@ -79,6 +81,8 @@ for i in range(4):
 done()
 ```
 
+(Type in: `F100-R90-F100-R90-F100-R90-F100-R90`)
+
 ### Example: Draw a Star
 
 ```python
@@ -90,6 +94,8 @@ for i in range(5):
 
 done()
 ```
+
+(Type in: `F100-R144-F100-R144-F100-R144-F100-R144-F100-R144`)
 
 ## Project Structure
 
@@ -111,6 +117,7 @@ drawing-machine/
 - **Adjust speed** with `speed()` for slower/faster drawing
 - **Use coordinates** with `goto()` for precise positioning
 
+(You will need to **modify** the code to do these)
 ## Learning Resources
 
 - [Python Turtle Documentation](https://docs.python.org/3/library/turtle.html)
